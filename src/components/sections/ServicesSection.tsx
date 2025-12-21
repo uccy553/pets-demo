@@ -125,48 +125,48 @@ function ServiceModal({
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="fixed inset-4 sm:inset-auto sm:left-1/2 sm:top-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 z-50 max-w-lg w-full max-h-[90vh] overflow-auto"
+                className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6"
             >
-                <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <div className="bg-white rounded-2xl shadow-2xl overflow-hidden w-full max-w-lg max-h-[85vh] flex flex-col">
                     {/* Header */}
-                    <div className="relative bg-gradient-to-r from-primary-600 to-primary-700 p-6">
+                    <div className="relative bg-gradient-to-r from-primary-600 to-primary-700 p-4 sm:p-6 flex-shrink-0">
                         <button
                             onClick={onClose}
-                            className="absolute top-4 right-4 p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                            className="absolute top-3 right-3 sm:top-4 sm:right-4 p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
                             aria-label="Close"
                         >
                             <X className="w-5 h-5" />
                         </button>
 
-                        <div className="flex items-center gap-4">
-                            <div className="w-16 h-16 rounded-xl bg-white/20 flex items-center justify-center">
-                                <IconComponent className="w-8 h-8 text-white" />
+                        <div className="flex items-center gap-3 sm:gap-4 pr-10">
+                            <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-white/20 flex items-center justify-center flex-shrink-0">
+                                <IconComponent className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                             </div>
-                            <div>
-                                <Badge variant="accent" size="sm" className="mb-2">
+                            <div className="min-w-0">
+                                <Badge variant="accent" size="sm" className="mb-1 sm:mb-2">
                                     {categoryLabels[service.category]}
                                 </Badge>
-                                <h3 className="text-2xl font-serif font-bold text-white">
+                                <h3 className="text-lg sm:text-2xl font-serif font-bold text-white leading-tight">
                                     {service.name}
                                 </h3>
                             </div>
                         </div>
                     </div>
 
-                    {/* Content */}
-                    <div className="p-6">
-                        <p className="text-primary-600 mb-6">
+                    {/* Content - Scrollable */}
+                    <div className="p-4 sm:p-6 overflow-y-auto flex-1">
+                        <p className="text-primary-600 mb-4 sm:mb-6 text-sm sm:text-base">
                             {service.fullDescription}
                         </p>
 
                         {/* Includes */}
-                        <h4 className="font-semibold text-primary-700 mb-3">
+                        <h4 className="font-semibold text-primary-700 mb-2 sm:mb-3 text-sm sm:text-base">
                             What&apos;s Included:
                         </h4>
-                        <ul className="space-y-2 mb-6">
+                        <ul className="space-y-2 mb-4 sm:mb-6">
                             {service.includes.map((item, index) => (
-                                <li key={index} className="flex items-start gap-2 text-primary-600">
-                                    <ChevronRight className="w-4 h-4 mt-1 text-accent-500 flex-shrink-0" />
+                                <li key={index} className="flex items-start gap-2 text-primary-600 text-sm sm:text-base">
+                                    <ChevronRight className="w-4 h-4 mt-0.5 text-accent-500 flex-shrink-0" />
                                     <span>{item}</span>
                                 </li>
                             ))}
@@ -175,13 +175,15 @@ function ServiceModal({
                         {/* Footer */}
                         <div className="flex items-center justify-between pt-4 border-t border-cream-200">
                             <div>
-                                <span className="text-sm text-primary-400">Starting at</span>
-                                <p className="text-2xl font-bold text-accent-600">
+                                <span className="text-xs sm:text-sm text-primary-400">Starting at</span>
+                                <p className="text-xl sm:text-2xl font-bold text-accent-600">
                                     ${service.priceFrom}
                                 </p>
                             </div>
                             <Button
                                 variant="accent"
+                                size="sm"
+                                className="sm:!px-6 sm:!py-2.5"
                                 onClick={() => {
                                     document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
                                     onClose();
