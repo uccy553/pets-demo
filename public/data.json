@@ -1,0 +1,424 @@
+{
+    "businessInfo": {
+        "name": "Sammy's Pet Salon",
+        "tagline": "Where Every Pet Leaves Looking & Feeling Their Best",
+        "description": "Premium pet grooming services in Edwardsport, Indiana. We treat your furry family members with the love, care, and expertise they deserve.",
+        "established": "2014",
+        "phone": "+1 618-302-4642",
+        "email": "samantha122003@icloud.com",
+        "address": {
+            "street": "Edwardsport",
+            "city": "Edwardsport",
+            "state": "Indiana",
+            "stateAbbr": "IN",
+            "zip": "",
+            "country": "United States"
+        },
+        "social": {
+            "facebook": "https://web.facebook.com/profile.php?id=100090499273080",
+            "instagram": "",
+            "twitter": ""
+        },
+        "hours": {
+            "monday": "9:00 AM - 6:00 PM",
+            "tuesday": "9:00 AM - 6:00 PM",
+            "wednesday": "9:00 AM - 6:00 PM",
+            "thursday": "9:00 AM - 6:00 PM",
+            "friday": "9:00 AM - 6:00 PM",
+            "saturday": "10:00 AM - 4:00 PM",
+            "sunday": "Closed"
+        }
+    },
+    "hero": {
+        "mainHeading": "Premium Pet Grooming in Edwardsport",
+        "subHeading": "Expert care for your beloved companions",
+        "description": "Experience the difference of personalized, stress-free grooming in a loving environment",
+        "ctaPrimary": {
+            "text": "Book Appointment",
+            "link": "#contact"
+        },
+        "ctaSecondary": {
+            "text": "View Services",
+            "link": "#services"
+        },
+        "carouselImages": [
+            {
+                "url": "/images/hero-dog-grooming.jpg",
+                "alt": "Happy groomed golden retriever"
+            },
+            {
+                "url": "/images/hero-cat-grooming.jpg",
+                "alt": "Pristine groomed Persian cat"
+            },
+            {
+                "url": "/images/hero-salon-interior.jpg",
+                "alt": "Modern pet grooming salon interior"
+            }
+        ]
+    },
+    "trustBar": [
+        {
+            "icon": "pawPrint",
+            "value": "500+",
+            "label": "Happy Pets Groomed"
+        },
+        {
+            "icon": "award",
+            "value": "10+",
+            "label": "Years of Experience"
+        },
+        {
+            "icon": "shield",
+            "value": "100%",
+            "label": "Licensed & Insured"
+        },
+        {
+            "icon": "star",
+            "value": "5-Star",
+            "label": "Customer Rated"
+        }
+    ],
+    "services": [
+        {
+            "id": "full-grooming",
+            "name": "Full Grooming Package",
+            "icon": "scissors",
+            "shortDescription": "Complete head-to-tail transformation for your pet",
+            "fullDescription": "Our signature service includes bath, haircut, nail trim, ear cleaning, teeth brushing, and finishing touches. Customized to your pet's breed and your preferences.",
+            "priceFrom": 45,
+            "duration": "2-3 hours",
+            "includes": [
+                "Premium shampoo & conditioner",
+                "Breed-specific haircut",
+                "Nail trimming & filing",
+                "Ear cleaning",
+                "Teeth brushing",
+                "Cologne & bow/bandana"
+            ],
+            "category": "full-service"
+        },
+        {
+            "id": "bath-brush",
+            "name": "Bath & Brush",
+            "icon": "bath",
+            "shortDescription": "Refresh your pet with a luxurious spa bath",
+            "fullDescription": "Deep cleansing bath with premium products, thorough brushing, and blow-dry. Perfect for maintaining your pet's coat between full grooms.",
+            "priceFrom": 30,
+            "duration": "1-1.5 hours",
+            "includes": [
+                "Premium shampoo & conditioner",
+                "Thorough brushing",
+                "Blow-dry & fluff",
+                "Nail trimming",
+                "Ear cleaning"
+            ],
+            "category": "basic"
+        },
+        {
+            "id": "puppy-kitten",
+            "name": "Puppy & Kitten First Groom",
+            "icon": "heart",
+            "shortDescription": "Gentle introduction to grooming for your young pet",
+            "fullDescription": "Specially designed for puppies and kittens to make their first grooming experience positive and stress-free. Includes socialization and gentle handling.",
+            "priceFrom": 35,
+            "duration": "1-1.5 hours",
+            "includes": [
+                "Gentle bath with puppy/kitten shampoo",
+                "Light trimming",
+                "Nail introduction",
+                "Positive reinforcement",
+                "Take-home care guide"
+            ],
+            "category": "specialty"
+        },
+        {
+            "id": "nail-trim",
+            "name": "Nail Trim & Paw Care",
+            "icon": "paw",
+            "shortDescription": "Quick and gentle nail trimming service",
+            "fullDescription": "Professional nail trimming with filing and paw pad care. Available as standalone service or add-on.",
+            "priceFrom": 15,
+            "duration": "15-30 minutes",
+            "includes": [
+                "Nail trimming",
+                "Nail filing",
+                "Paw pad moisturizing"
+            ],
+            "category": "addon"
+        },
+        {
+            "id": "teeth-cleaning",
+            "name": "Teeth Brushing",
+            "icon": "smile",
+            "shortDescription": "Keep your pet's smile bright and healthy",
+            "fullDescription": "Gentle teeth brushing with pet-safe enzymatic toothpaste to maintain oral health.",
+            "priceFrom": 12,
+            "duration": "15 minutes",
+            "includes": [
+                "Enzymatic toothpaste",
+                "Gentle brushing technique",
+                "Breath freshening"
+            ],
+            "category": "addon"
+        },
+        {
+            "id": "deshedding",
+            "name": "De-Shedding Treatment",
+            "icon": "wind",
+            "shortDescription": "Reduce shedding with specialized treatment",
+            "fullDescription": "Intensive treatment to remove loose undercoat and reduce shedding. Perfect for heavy shedders and seasonal coat changes.",
+            "priceFrom": 25,
+            "duration": "30-45 minutes",
+            "includes": [
+                "De-shedding shampoo",
+                "Undercoat rake treatment",
+                "High-velocity blow-dry",
+                "Finishing brush"
+            ],
+            "category": "specialty"
+        },
+        {
+            "id": "flea-tick",
+            "name": "Flea & Tick Treatment",
+            "icon": "bug",
+            "shortDescription": "Effective pest removal and prevention",
+            "fullDescription": "Specialized bath and treatment to eliminate fleas and ticks, with follow-up prevention recommendations.",
+            "priceFrom": 40,
+            "duration": "1.5-2 hours",
+            "includes": [
+                "Medicated flea & tick shampoo",
+                "Thorough combing",
+                "Multiple rinses",
+                "Prevention advice"
+            ],
+            "category": "specialty"
+        },
+        {
+            "id": "senior-pet",
+            "name": "Senior Pet Care",
+            "icon": "clock",
+            "shortDescription": "Gentle grooming for older pets",
+            "fullDescription": "Modified grooming services with extra care and patience for senior pets with special needs or mobility issues.",
+            "priceFrom": 50,
+            "duration": "2-3 hours",
+            "includes": [
+                "Gentle handling",
+                "Extra padding & support",
+                "Frequent breaks",
+                "Arthritis-friendly techniques",
+                "Calming environment"
+            ],
+            "category": "specialty"
+        }
+    ],
+    "whyChooseUs": [
+        {
+            "title": "Experienced & Certified Groomers",
+            "description": "Our team consists of professionally trained and certified groomers with years of experience handling all breeds and temperaments. We stay updated with the latest grooming techniques and pet care standards.",
+            "icon": "certificate",
+            "imageUrl": "/images/groomer-certification.jpg"
+        },
+        {
+            "title": "Stress-Free Environment",
+            "description": "We understand that grooming can be stressful for pets. Our calm, soothing environment with gentle handling techniques ensures your pet feels safe and comfortable throughout their visit.",
+            "icon": "heart",
+            "imageUrl": "/images/calm-environment.jpg"
+        },
+        {
+            "title": "Premium Products Only",
+            "description": "We use only the finest, pet-safe products including organic shampoos, hypoallergenic options, and breed-specific formulas. Every product is carefully selected for your pet's health and safety.",
+            "icon": "sparkles",
+            "imageUrl": "/images/premium-products.jpg"
+        },
+        {
+            "title": "Personalized Care Plans",
+            "description": "No two pets are alike. We create customized grooming plans based on your pet's breed, coat type, temperament, and your specific preferences. Your pet receives one-on-one attention throughout their service.",
+            "icon": "clipboard",
+            "imageUrl": "/images/personalized-care.jpg"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Jennifer Martinez",
+            "petName": "Max",
+            "petType": "Golden Retriever",
+            "rating": 5,
+            "text": "Sammy's Pet Salon is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
+            "date": "2024-11",
+            "imageUrl": "/images/testimonial-max.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Robert Thompson",
+            "petName": "Bella",
+            "petType": "Poodle Mix",
+            "rating": 5,
+            "text": "I've been bringing Bella here for over 3 years. The quality is consistently outstanding and the prices are very reasonable. Samantha truly cares about every pet that walks through her door.",
+            "date": "2024-10",
+            "imageUrl": "/images/testimonial-bella.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Lisa Chen",
+            "petName": "Whiskers",
+            "petType": "Persian Cat",
+            "rating": 5,
+            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Sammy's does an incredible job. Whiskers actually seems to enjoy going now!",
+            "date": "2024-11",
+            "imageUrl": "/images/testimonial-whiskers.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Michael Johnson",
+            "petName": "Duke",
+            "petType": "German Shepherd",
+            "rating": 5,
+            "text": "Duke can be nervous around new people, but the team here worked patiently with him. Now he's comfortable and his coat has never looked better. Highly recommend!",
+            "date": "2024-09",
+            "imageUrl": "/images/testimonial-duke.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Sarah Williams",
+            "petName": "Coco",
+            "petType": "Yorkie",
+            "rating": 5,
+            "text": "The attention to detail is amazing! Coco always gets the cutest cuts and I love that they remember her preferences. This is grooming at its finest!",
+            "date": "2024-11",
+            "imageUrl": "/images/testimonial-coco.jpg"
+        }
+    ],
+    "gallery": [
+        {
+            "id": 1,
+            "petName": "Bailey",
+            "petType": "dog",
+            "breed": "Labradoodle",
+            "service": "Full Grooming Package",
+            "beforeImage": "/images/gallery/bailey-before.jpg",
+            "afterImage": "/images/gallery/bailey-after.jpg",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "petName": "Mittens",
+            "petType": "cat",
+            "breed": "Maine Coon",
+            "service": "Bath & Brush",
+            "beforeImage": "/images/gallery/mittens-before.jpg",
+            "afterImage": "/images/gallery/mittens-after.jpg",
+            "featured": true
+        },
+        {
+            "id": 3,
+            "petName": "Rocky",
+            "petType": "dog",
+            "breed": "Shih Tzu",
+            "service": "Full Grooming Package",
+            "beforeImage": "/images/gallery/rocky-before.jpg",
+            "afterImage": "/images/gallery/rocky-after.jpg",
+            "featured": false
+        },
+        {
+            "id": 4,
+            "petName": "Luna",
+            "petType": "dog",
+            "breed": "Pomeranian",
+            "service": "De-Shedding Treatment",
+            "beforeImage": "/images/gallery/luna-before.jpg",
+            "afterImage": "/images/gallery/luna-after.jpg",
+            "featured": true
+        },
+        {
+            "id": 5,
+            "petName": "Oliver",
+            "petType": "cat",
+            "breed": "Persian",
+            "service": "Full Grooming Package",
+            "beforeImage": "/images/gallery/oliver-before.jpg",
+            "afterImage": "/images/gallery/oliver-after.jpg",
+            "featured": false
+        },
+        {
+            "id": 6,
+            "petName": "Buddy",
+            "petType": "dog",
+            "breed": "Beagle",
+            "service": "Bath & Brush",
+            "beforeImage": "/images/gallery/buddy-before.jpg",
+            "afterImage": "/images/gallery/buddy-after.jpg",
+            "featured": false
+        }
+    ],
+    "faqs": [
+        {
+            "question": "How long does a typical grooming appointment take?",
+            "answer": "Grooming times vary based on the service and your pet's size and coat condition. A full grooming typically takes 2-3 hours, while a bath and brush takes 1-1.5 hours. We never rush your pet and take breaks as needed for their comfort."
+        },
+        {
+            "question": "Do I need to stay during my pet's appointment?",
+            "answer": "You're welcome to stay if you'd like, but it's not required. Many pets actually do better when their owners aren't present as they're less likely to get anxious. We'll call you when your pet is ready for pickup."
+        },
+        {
+            "question": "What if my pet is anxious or aggressive?",
+            "answer": "We're experienced in handling pets with various temperaments. We use gentle, positive reinforcement techniques and can take extra time if needed. For extremely anxious pets, we can discuss strategies and may recommend shorter, more frequent visits to build trust."
+        },
+        {
+            "question": "How often should I have my pet groomed?",
+            "answer": "This depends on your pet's breed, coat type, and lifestyle. Generally, dogs need grooming every 4-8 weeks, while cats may only need professional grooming every few months. We can recommend a schedule specific to your pet."
+        },
+        {
+            "question": "What should I bring to my pet's first appointment?",
+            "answer": "Just bring your pet! If your pet has any special medical needs or sensitivities, please let us know ahead of time. We provide everything else needed for a great grooming experience."
+        },
+        {
+            "question": "Do you groom cats as well as dogs?",
+            "answer": "Absolutely! We're experienced in grooming both cats and dogs. We understand that cats require special handling techniques and we're equipped to handle all feline coat types."
+        },
+        {
+            "question": "What vaccinations does my pet need?",
+            "answer": "For the safety of all pets, we require dogs to be current on rabies, distemper, and bordetella (kennel cough) vaccinations. Cats should be current on rabies and FVRCP. Please bring proof of vaccination to your first appointment."
+        },
+        {
+            "question": "What is your cancellation policy?",
+            "answer": "We understand that things come up! We ask for at least 24 hours notice if you need to reschedule. This allows us to offer the time slot to another pet in need of grooming services."
+        }
+    ],
+    "additionalInfo": {
+        "parking": "Free parking available on-site",
+        "accessibility": "Wheelchair accessible entrance",
+        "paymentMethods": [
+            "Cash",
+            "Credit Card",
+            "Debit Card",
+            "Venmo",
+            "Zelle"
+        ],
+        "languages": [
+            "English"
+        ],
+        "petTypes": [
+            "Dogs",
+            "Cats"
+        ],
+        "specializations": [
+            "All breed grooming",
+            "Show cuts",
+            "Senior pet care",
+            "Puppy/kitten introductions",
+            "Anxious pet handling"
+        ]
+    },
+    "seo": {
+        "title": "Sammy's Pet Salon | Premium Pet Grooming in Edwardsport, IN",
+        "description": "Expert pet grooming services in Edwardsport, Indiana. Professional dog and cat grooming with personalized care. Book your appointment today!",
+        "keywords": [
+            "pet grooming Edwardsport",
+            "dog grooming Indiana",
+            "cat grooming near me",
+            "professional pet groomer",
+            "pet salon Edwardsport IN"
+        ]
+    }
+}
