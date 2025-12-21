@@ -284,6 +284,27 @@ export function ContactSection() {
                         <ContactInfo data={data} />
                     </motion.div>
                 </div>
+
+                {/* Map */}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={inView ? { opacity: 1, y: 0 } : {}}
+                    transition={{ duration: 0.6, delay: 0.4 }}
+                    className="mt-12"
+                >
+                    <div className="rounded-2xl overflow-hidden shadow-lg h-80 sm:h-96">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67725.89073658484!2d-84.35617060312693!3d30.509500171164444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ec5f41e5da7203%3A0x41b483b71d71da43!2sNails%20to%20Tails%20Pet%20Salon!5e0!3m2!1sen!2sng!4v1766350125989!5m2!1sen!2sng"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="Nails to Tails Pet Salon Location"
+                        />
+                    </div>
+                </motion.div>
             </Container>
 
             {/* Toast Container */}

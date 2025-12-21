@@ -1,21 +1,21 @@
 {
     "businessInfo": {
-        "name": "Sammy's Pet Salon",
+        "name": "Nails to Tails Pet Salon",
         "tagline": "Where Every Pet Leaves Looking & Feeling Their Best",
-        "description": "Premium pet grooming services in Edwardsport, Indiana. We treat your furry family members with the love, care, and expertise they deserve.",
+        "description": "Premium pet grooming services in Tallahassee, Florida. We treat your furry family members with the love, care, and expertise they deserve.",
         "established": "2014",
-        "phone": "+1 618-302-4642",
-        "email": "samantha122003@icloud.com",
+        "phone": "+1 850-765-4645",
+        "email": "",
         "address": {
-            "street": "Edwardsport",
-            "city": "Edwardsport",
-            "state": "Indiana",
-            "stateAbbr": "IN",
-            "zip": "",
+            "street": "1350 Mahan Dr Suite D-2",
+            "city": "Tallahassee",
+            "state": "Florida",
+            "stateAbbr": "FL",
+            "zip": "32308",
             "country": "United States"
         },
         "social": {
-            "facebook": "https://web.facebook.com/profile.php?id=100090499273080",
+            "facebook": "https://web.facebook.com/nailstotailspetsalon/?_rdc=1&_rdr#",
             "instagram": "",
             "twitter": ""
         },
@@ -30,7 +30,7 @@
         }
     },
     "hero": {
-        "mainHeading": "Premium Pet Grooming in Edwardsport",
+        "mainHeading": "Premium Pet Grooming in Tallahassee",
         "subHeading": "Expert care for your beloved companions",
         "description": "Experience the difference of personalized, stress-free grooming in a loving environment",
         "ctaPrimary": {
@@ -244,7 +244,7 @@
             "petName": "Max",
             "petType": "Golden Retriever",
             "rating": 5,
-            "text": "Sammy's Pet Salon is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
+            "text": "Nails to Tails Pet Salon is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-max.jpg"
         },
@@ -254,7 +254,7 @@
             "petName": "Bella",
             "petType": "Poodle Mix",
             "rating": 5,
-            "text": "I've been bringing Bella here for over 3 years. The quality is consistently outstanding and the prices are very reasonable. Samantha truly cares about every pet that walks through her door.",
+            "text": "I've been bringing Bella here for over 3 years. The quality is consistently outstanding and the prices are very reasonable. The team truly cares about every pet that walks through their door.",
             "date": "2024-10",
             "imageUrl": "/images/testimonial-bella.jpg"
         },
@@ -264,7 +264,7 @@
             "petName": "Whiskers",
             "petType": "Persian Cat",
             "rating": 5,
-            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Sammy's does an incredible job. Whiskers actually seems to enjoy going now!",
+            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Nails to Tails does an incredible job. Whiskers actually seems to enjoy going now!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-whiskers.jpg"
         },
@@ -411,14 +411,14 @@
         ]
     },
     "seo": {
-        "title": "Sammy's Pet Salon | Premium Pet Grooming in Edwardsport, IN",
-        "description": "Expert pet grooming services in Edwardsport, Indiana. Professional dog and cat grooming with personalized care. Book your appointment today!",
+        "title": "Nails to Tails Pet Salon | Premium Pet Grooming in Tallahassee, FL",
+        "description": "Expert pet grooming services in Tallahassee, Florida. Professional dog and cat grooming with personalized care. Book your appointment today!",
         "keywords": [
-            "pet grooming Edwardsport",
-            "dog grooming Indiana",
+            "pet grooming Tallahassee",
+            "dog grooming Florida",
             "cat grooming near me",
             "professional pet groomer",
-            "pet salon Edwardsport IN"
+            "pet salon Tallahassee FL"
         ]
     }
 }
