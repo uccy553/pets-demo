@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Facebook, Instagram, Twitter, Phone, Mail, MapPin, Heart } from 'lucide-react';
@@ -60,7 +61,14 @@ export function Footer() {
                 >
                     {/* Column 1: Logo & About */}
                     <div>
-                        <Link href="/" className="inline-block mb-4">
+                        <Link href="/" className="inline-flex items-center gap-3 mb-4">
+                            <Image
+                                src="/logo.svg"
+                                alt={businessInfo.name}
+                                width={48}
+                                height={48}
+                                className="w-12 h-12"
+                            />
                             <h3 className="text-2xl font-serif font-bold text-white">
                                 {businessInfo.name}
                             </h3>

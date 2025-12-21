@@ -1,0 +1,96 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4D03F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8962D;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="navyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C3E50;stop-opacity:1" />
+    </linearGradient>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="shineGradient" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Circle - Navy -->
+  <circle cx="100" cy="100" r="95" fill="url(#navyGradient)" filter="url(#shadow)"/>
+  
+  <!-- Inner Circle - Gold -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="url(#goldGradient)" stroke-width="4"/>
+  
+  <!-- Decorative Corner Elements -->
+  <path d="M 100 25 L 105 35 L 95 35 Z" fill="url(#goldGradient)"/>
+  <path d="M 100 175 L 105 165 L 95 165 Z" fill="url(#goldGradient)"/>
+  <path d="M 25 100 L 35 105 L 35 95 Z" fill="url(#goldGradient)"/>
+  <path d="M 175 100 L 165 105 L 165 95 Z" fill="url(#goldGradient)"/>
+
+  <!-- Main Paw Print - Bold and Centered -->
+  <g transform="translate(100, 100)">
+    <!-- Main Pad (Large Oval) -->
+    <ellipse cx="0" cy="8" rx="24" ry="30" fill="url(#goldGradient)" stroke="#F4D03F" stroke-width="2"/>
+    
+    <!-- Top Left Toe -->
+    <ellipse cx="-22" cy="-18" rx="11" ry="16" fill="url(#goldGradient)" stroke="#F4D03F" stroke-width="1.5" transform="rotate(-25 -22 -18)"/>
+    
+    <!-- Top Center-Left Toe -->
+    <ellipse cx="-8" cy="-26" rx="11" ry="16" fill="url(#goldGradient)" stroke="#F4D03F" stroke-width="1.5" transform="rotate(-5 -8 -26)"/>
+    
+    <!-- Top Center-Right Toe -->
+    <ellipse cx="8" cy="-26" rx="11" ry="16" fill="url(#goldGradient)" stroke="#F4D03F" stroke-width="1.5" transform="rotate(5 8 -26)"/>
+    
+    <!-- Top Right Toe -->
+    <ellipse cx="22" cy="-18" rx="11" ry="16" fill="url(#goldGradient)" stroke="#F4D03F" stroke-width="1.5" transform="rotate(25 22 -18)"/>
+
+    <!-- Shine Effect on Main Pad -->
+    <ellipse cx="-5" cy="0" rx="12" ry="15" fill="url(#shineGradient)" opacity="0.6"/>
+  </g>
+
+  <!-- Scissors Icon - Stylized and Bold (Top Right) -->
+  <g transform="translate(145, 55)">
+    <!-- Scissor Blades -->
+    <path d="M 0 0 L -8 -12 L -6 -14 L 2 -2 Z" fill="url(#goldGradient)" stroke="#F4D03F" stroke-width="1"/>
+    <path d="M 0 0 L 8 -12 L 6 -14 L -2 -2 Z" fill="url(#goldGradient)" stroke="#F4D03F" stroke-width="1"/>
+    <!-- Handle Rings -->
+    <circle cx="-6" cy="-12" r="3" fill="none" stroke="url(#goldGradient)" stroke-width="1.5"/>
+    <circle cx="6" cy="-12" r="3" fill="none" stroke="url(#goldGradient)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Sparkle/Stars - Premium Touch -->
+  <g fill="url(#goldGradient)">
+    <!-- Top Left Sparkle -->
+    <path d="M 45 50 L 46.5 53 L 50 54 L 46.5 55 L 45 58 L 43.5 55 L 40 54 L 43.5 53 Z"/>
+    <!-- Top Right Sparkle -->
+    <path d="M 155 50 L 156.5 53 L 160 54 L 156.5 55 L 155 58 L 153.5 55 L 150 54 L 153.5 53 Z"/>
+    <!-- Bottom Left Sparkle -->
+    <path d="M 45 150 L 46.5 153 L 50 154 L 46.5 155 L 45 158 L 43.5 155 L 40 154 L 43.5 153 Z"/>
+    <!-- Bottom Right Sparkle -->
+    <path d="M 155 150 L 156.5 153 L 160 154 L 156.5 155 L 155 158 L 153.5 155 L 150 154 L 153.5 153 Z"/>
+  </g>
+
+  <!-- Heart Accent (Bottom) - Subtle -->
+  <g transform="translate(100, 140)">
+    <path d="M 0 0 C -2 -3, -6 -3, -6 0 C -6 2, 0 6, 0 6 C 0 6, 6 2, 6 0 C 6 -3, 2 -3, 0 0 Z" 
+          fill="url(#goldGradient)" opacity="0.8"/>
+  </g>
+
+  <!-- Inner Decorative Ring -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="url(#goldGradient)" stroke-width="1" opacity="0.3" stroke-dasharray="3,6"/>
+</svg>

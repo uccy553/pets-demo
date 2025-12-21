@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, Phone } from 'lucide-react';
 import { useBusinessData, useScrolled } from '@/hooks';
@@ -65,12 +66,23 @@ export function Header() {
                         {/* Logo */}
                         <Link
                             href="/"
-                            className={cn(
-                                'font-serif font-bold text-xl md:text-2xl transition-colors duration-300',
-                                isScrolled ? 'text-primary-700' : 'text-white'
-                            )}
+                            className="flex items-center gap-2"
                         >
-                            {data?.businessInfo.name || 'Pet Grooming'}
+                            <Image
+                                src="/logo.svg"
+                                alt={data?.businessInfo.name || 'Pet Grooming'}
+                                width={48}
+                                height={48}
+                                className="w-10 h-10 md:w-12 md:h-12"
+                            />
+                            <span
+                                className={cn(
+                                    'font-serif font-bold text-lg md:text-xl transition-colors duration-300 hidden sm:inline',
+                                    isScrolled ? 'text-primary-700' : 'text-white'
+                                )}
+                            >
+                                {data?.businessInfo.name || 'Pet Grooming'}
+                            </span>
                         </Link>
 
                         {/* Desktop Navigation */}
