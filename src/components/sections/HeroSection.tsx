@@ -138,7 +138,7 @@ export function HeroSection() {
                         variants={staggerContainer}
                         initial="initial"
                         animate="animate"
-                        className="max-w-3xl mx-auto text-center"
+                        className="max-w-4xl mx-auto text-center"
                     >
                         {/* Main Heading */}
                         <motion.h1
