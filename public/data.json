@@ -1,21 +1,21 @@
 {
     "businessInfo": {
-        "name": "Nails to Tails Pet Salon",
+        "name": "Sasha Pet Salon",
         "tagline": "Where Every Pet Leaves Looking & Feeling Their Best",
-        "description": "Premium pet grooming services in Tallahassee, Florida. We treat your furry family members with the love, care, and expertise they deserve.",
+        "description": "Premium pet grooming services in Los Angeles, California. We treat your furry family members with the love, care, and expertise they deserve.",
         "established": "2014",
-        "phone": "+1 850-765-4645",
-        "email": "",
+        "phone": "+1 213-700-7744",
+        "email": "Bobbipinkpet@gmail.com",
         "address": {
-            "street": "1350 Mahan Dr Suite D-2",
-            "city": "Tallahassee",
-            "state": "Florida",
-            "stateAbbr": "FL",
-            "zip": "32308",
+            "street": "625 S Berendo St Unit #7",
+            "city": "Los Angeles",
+            "state": "California",
+            "stateAbbr": "CA",
+            "zip": "90005",
             "country": "United States"
         },
         "social": {
-            "facebook": "https://web.facebook.com/nailstotailspetsalon/?_rdc=1&_rdr#",
+            "facebook": "https://web.facebook.com/bobbipinkpet/?_rdc=1&_rdr#",
             "instagram": "",
             "twitter": ""
         },
@@ -30,7 +30,7 @@
         }
     },
     "hero": {
-        "mainHeading": "Premium Pet Grooming in Tallahassee",
+        "mainHeading": "Premium Pet Grooming in Los Angeles",
         "subHeading": "Expert care for your beloved companions",
         "description": "Experience the difference of personalized, stress-free grooming in a loving environment",
         "ctaPrimary": {
@@ -244,7 +244,7 @@
             "petName": "Max",
             "petType": "Golden Retriever",
             "rating": 5,
-            "text": "Nails to Tails Pet Salon is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
+            "text": "Sasha Pet Salon is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-max.jpg"
         },
@@ -264,7 +264,7 @@
             "petName": "Whiskers",
             "petType": "Persian Cat",
             "rating": 5,
-            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Nails to Tails does an incredible job. Whiskers actually seems to enjoy going now!",
+            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Sasha Pet Salon does an incredible job. Whiskers actually seems to enjoy going now!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-whiskers.jpg"
         },
@@ -411,14 +411,14 @@
         ]
     },
     "seo": {
-        "title": "Nails to Tails Pet Salon | Premium Pet Grooming in Tallahassee, FL",
-        "description": "Expert pet grooming services in Tallahassee, Florida. Professional dog and cat grooming with personalized care. Book your appointment today!",
+        "title": "Sasha Pet Salon | Premium Pet Grooming in Los Angeles, CA",
+        "description": "Expert pet grooming services in Los Angeles, California. Professional dog and cat grooming with personalized care. Book your appointment today!",
         "keywords": [
-            "pet grooming Tallahassee",
-            "dog grooming Florida",
+            "pet grooming Los Angeles",
+            "dog grooming California",
             "cat grooming near me",
             "professional pet groomer",
-            "pet salon Tallahassee FL"
+            "pet salon Los Angeles CA"
         ]
     }
 }
