@@ -1,21 +1,21 @@
 {
     "businessInfo": {
-        "name": "Sasha Pet Salon",
+        "name": "Brother's Pet Grooming",
         "tagline": "Where Every Pet Leaves Looking & Feeling Their Best",
         "description": "Premium pet grooming services in Los Angeles, California. We treat your furry family members with the love, care, and expertise they deserve.",
         "established": "2014",
-        "phone": "+1 213-700-7744",
-        "email": "Bobbipinkpet@gmail.com",
+        "phone": "+1 323-495-6845",
+        "email": "petgroomingbel@gmail.com",
         "address": {
-            "street": "625 S Berendo St Unit #7",
+            "street": "6419 Normandie Ave",
             "city": "Los Angeles",
             "state": "California",
             "stateAbbr": "CA",
-            "zip": "90005",
+            "zip": "90044",
             "country": "United States"
         },
         "social": {
-            "facebook": "https://web.facebook.com/bobbipinkpet/?_rdc=1&_rdr#",
+            "facebook": "https://web.facebook.com/p/Brothers-Pet-Grooming-Inc-61559359257015/?_rdc=1&_rdr#",
             "instagram": "",
             "twitter": ""
         },
@@ -244,7 +244,7 @@
             "petName": "Max",
             "petType": "Golden Retriever",
             "rating": 5,
-            "text": "Sasha Pet Salon is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
+            "text": "Brother's Pet Grooming is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-max.jpg"
         },
@@ -264,7 +264,7 @@
             "petName": "Whiskers",
             "petType": "Persian Cat",
             "rating": 5,
-            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Sasha Pet Salon does an incredible job. Whiskers actually seems to enjoy going now!",
+            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Brother's Pet Grooming does an incredible job. Whiskers actually seems to enjoy going now!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-whiskers.jpg"
         },
@@ -411,7 +411,7 @@
         ]
     },
     "seo": {
-        "title": "Sasha Pet Salon | Premium Pet Grooming in Los Angeles, CA",
+        "title": "Brother's Pet Grooming | Premium Pet Grooming in Los Angeles, CA",
         "description": "Expert pet grooming services in Los Angeles, California. Professional dog and cat grooming with personalized care. Book your appointment today!",
         "keywords": [
             "pet grooming Los Angeles",
