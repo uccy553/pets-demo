@@ -294,14 +294,14 @@ export function ContactSection() {
                 >
                     <div className="rounded-2xl overflow-hidden shadow-lg h-80 sm:h-96">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.173191598598!2d-82.52209732472619!3d28.04973601030746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c13b461847dd%3A0xba057e065ad9d0db!2sNane%20Paws%20and%20Tails!5e0!3m2!1sen!2sng!4v1767110435926!5m2!1sen!2sng"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2629845396395!2d-118.272333124508!3d33.98577822123739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c9fb5e3e704f%3A0x615f54367f176ce2!2sBest%20Paws%20Grooming!5e0!3m2!1sen!2sng!4v1767116158585!5m2!1sen!2sng"
                             width="100%"
                             height="100%"
-                            style={{ border: 0 }}
+                            style={{ border: "0" }}
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Nane Paws and Tails Location"
+                            title="Best Paws Grooming Location"
                         />
                     </div>
                 </motion.div>
