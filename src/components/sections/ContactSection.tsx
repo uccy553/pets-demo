@@ -211,7 +211,7 @@ function ContactInfo({ data }: { data: NonNullable<ReturnType<typeof useBusiness
                         </div>
                         <div className="flex-1">
                             <p className="text-sm text-primary-400 mb-2">Business Hours</p>
-                            <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1">
                                 {hoursArray.map(({ day, hours }) => (
                                     <div key={day} className="flex justify-between text-sm">
                                         <span className="text-primary-500">{day}</span>
