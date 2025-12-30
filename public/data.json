@@ -1,21 +1,21 @@
 {
     "businessInfo": {
-        "name": "Brother's Pet Grooming",
+        "name": "Andy's Paws",
         "tagline": "Where Every Pet Leaves Looking & Feeling Their Best",
-        "description": "Premium pet grooming services in Los Angeles, California. We treat your furry family members with the love, care, and expertise they deserve.",
+        "description": "Premium pet grooming services in Chicago, Illinois. We treat your furry family members with the love, care, and expertise they deserve.",
         "established": "2014",
-        "phone": "+1 323-495-6845",
-        "email": "petgroomingbel@gmail.com",
+        "phone": "+1 773-999-3464",
+        "email": "andys.paws14@gmail.com",
         "address": {
-            "street": "6419 Normandie Ave",
-            "city": "Los Angeles",
-            "state": "California",
-            "stateAbbr": "CA",
-            "zip": "90044",
+            "street": "5720 S Pulaski Rd",
+            "city": "Chicago",
+            "state": "Illinois",
+            "stateAbbr": "IL",
+            "zip": "60629",
             "country": "United States"
         },
         "social": {
-            "facebook": "https://web.facebook.com/p/Brothers-Pet-Grooming-Inc-61559359257015/?_rdc=1&_rdr#",
+            "facebook": "https://web.facebook.com/andys.paws14/?_rdc=1&_rdr#",
             "instagram": "",
             "twitter": ""
         },
@@ -30,7 +30,7 @@
         }
     },
     "hero": {
-        "mainHeading": "Premium Pet Grooming in Los Angeles",
+        "mainHeading": "Premium Pet Grooming in Chicago",
         "subHeading": "Expert care for your beloved companions",
         "description": "Experience the difference of personalized, stress-free grooming in a loving environment",
         "ctaPrimary": {
@@ -244,7 +244,7 @@
             "petName": "Max",
             "petType": "Golden Retriever",
             "rating": 5,
-            "text": "Brother's Pet Grooming is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
+            "text": "Andy's Paws is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-max.jpg"
         },
@@ -264,7 +264,7 @@
             "petName": "Whiskers",
             "petType": "Persian Cat",
             "rating": 5,
-            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Brother's Pet Grooming does an incredible job. Whiskers actually seems to enjoy going now!",
+            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Andy's Paws does an incredible job. Whiskers actually seems to enjoy going now!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-whiskers.jpg"
         },
@@ -411,14 +411,14 @@
         ]
     },
     "seo": {
-        "title": "Brother's Pet Grooming | Premium Pet Grooming in Los Angeles, CA",
-        "description": "Expert pet grooming services in Los Angeles, California. Professional dog and cat grooming with personalized care. Book your appointment today!",
+        "title": "Andy's Paws | Premium Pet Grooming in Chicago, IL",
+        "description": "Expert pet grooming services in Chicago, Illinois. Professional dog and cat grooming with personalized care. Book your appointment today!",
         "keywords": [
-            "pet grooming Los Angeles",
-            "dog grooming California",
+            "pet grooming Chicago",
+            "dog grooming Illinois",
             "cat grooming near me",
             "professional pet groomer",
-            "pet salon Los Angeles CA"
+            "pet salon Chicago IL"
         ]
     }
 }
