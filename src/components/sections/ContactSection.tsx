@@ -294,14 +294,14 @@ export function ContactSection() {
                 >
                     <div className="rounded-2xl overflow-hidden shadow-lg h-80 sm:h-96">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.828564645535!2d-87.72592612415873!3d41.78890817099414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e313ea4b1a337%3A0xb14107572f9de532!2sAndys%20Paws%20LLC!5e0!3m2!1sen!2sng!4v1767056000096!5m2!1sen!2sng"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.5952057129425!2d-118.35430392450206!3d34.13111141356212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2be5228b986a3%3A0xfcffc44fe4db3f5!2sPaw-llywood%20Pet%20Spa!5e0!3m2!1sen!2sng!4v1767105192327!5m2!1sen!2sng"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Andys Paws LLC Location"
+                            title="Paw-llywood Pet Spa Location"
                         />
                     </div>
                 </motion.div>

@@ -1,21 +1,21 @@
 {
     "businessInfo": {
-        "name": "Andy's Paws",
+        "name": "Paw-llywood Pet Spa",
         "tagline": "Where Every Pet Leaves Looking & Feeling Their Best",
-        "description": "Premium pet grooming services in Chicago, Illinois. We treat your furry family members with the love, care, and expertise they deserve.",
+        "description": "Premium pet grooming services in Los Angeles, California. We treat your furry family members with the love, care, and expertise they deserve.",
         "established": "2014",
-        "phone": "+1 773-999-3464",
-        "email": "andys.paws14@gmail.com",
+        "phone": "+1 323-848-4297",
+        "email": "pawllywoodpetspa@yahoo.com",
         "address": {
-            "street": "5720 S Pulaski Rd",
-            "city": "Chicago",
-            "state": "Illinois",
-            "stateAbbr": "IL",
-            "zip": "60629",
+            "street": "3359 Cahuenga Blvd W",
+            "city": "Los Angeles",
+            "state": "California",
+            "stateAbbr": "CA",
+            "zip": "90068",
             "country": "United States"
         },
         "social": {
-            "facebook": "https://web.facebook.com/andys.paws14/?_rdc=1&_rdr#",
+            "facebook": "https://web.facebook.com/pawllywoodpetspa/?_rdc=1&_rdr#",
             "instagram": "",
             "twitter": ""
         },
@@ -30,7 +30,7 @@
         }
     },
     "hero": {
-        "mainHeading": "Premium Pet Grooming in Chicago",
+        "mainHeading": "Premium Pet Grooming in Los Angeles",
         "subHeading": "Expert care for your beloved companions",
         "description": "Experience the difference of personalized, stress-free grooming in a loving environment",
         "ctaPrimary": {
@@ -244,7 +244,7 @@
             "petName": "Max",
             "petType": "Golden Retriever",
             "rating": 5,
-            "text": "Andy's Paws is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
+            "text": "Paw-llywood Pet Spa is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-max.jpg"
         },
@@ -264,7 +264,7 @@
             "petName": "Whiskers",
             "petType": "Persian Cat",
             "rating": 5,
-            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Andy's Paws does an incredible job. Whiskers actually seems to enjoy going now!",
+            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Paw-llywood Pet Spa does an incredible job. Whiskers actually seems to enjoy going now!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-whiskers.jpg"
         },
@@ -411,14 +411,14 @@
         ]
     },
     "seo": {
-        "title": "Andy's Paws | Premium Pet Grooming in Chicago, IL",
-        "description": "Expert pet grooming services in Chicago, Illinois. Professional dog and cat grooming with personalized care. Book your appointment today!",
+        "title": "Paw-llywood Pet Spa | Premium Pet Grooming in Los Angeles, CA",
+        "description": "Expert pet grooming services in Los Angeles, California. Professional dog and cat grooming with personalized care. Book your appointment today!",
         "keywords": [
-            "pet grooming Chicago",
-            "dog grooming Illinois",
+            "pet grooming Los Angeles",
+            "dog grooming California",
             "cat grooming near me",
             "professional pet groomer",
-            "pet salon Chicago IL"
+            "pet spa Los Angeles CA"
         ]
     }
 }
