@@ -158,7 +158,7 @@ function ContactInfo({ data }: { data: NonNullable<ReturnType<typeof useBusiness
     ];
 
     return (
-        <Card variant="elevated" className="h-full">
+        <Card variant="elevated">
             <h3 className="text-xl font-serif font-bold text-primary-700 mb-6">
                 Contact Information
             </h3>
@@ -204,24 +204,24 @@ function ContactInfo({ data }: { data: NonNullable<ReturnType<typeof useBusiness
                 </div>
 
                 {/* Hours */}
-                <div>
-                    <div className="flex items-center gap-4 mb-3">
+                <div className="pt-4 border-t border-cream-200">
+                    <div className="flex items-start gap-4">
                         <div className="w-12 h-12 rounded-xl bg-accent-100 flex items-center justify-center flex-shrink-0">
                             <Clock className="w-5 h-5 text-accent-600" />
                         </div>
-                        <div>
-                            <p className="text-sm text-primary-400">Business Hours</p>
-                        </div>
-                    </div>
-                    <div className="ml-16 space-y-1">
-                        {hoursArray.map(({ day, hours }) => (
-                            <div key={day} className="flex justify-between text-sm">
-                                <span className="text-primary-500">{day}</span>
-                                <span className={hours === 'Closed' ? 'text-red-500' : 'text-primary-700 font-medium'}>
-                                    {hours}
-                                </span>
+                        <div className="flex-1">
+                            <p className="text-sm text-primary-400 mb-2">Business Hours</p>
+                            <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+                                {hoursArray.map(({ day, hours }) => (
+                                    <div key={day} className="flex justify-between text-sm">
+                                        <span className="text-primary-500">{day}</span>
+                                        <span className={hours === 'Closed' ? 'text-red-500' : 'text-primary-700 font-medium'}>
+                                            {hours}
+                                        </span>
+                                    </div>
+                                ))}
                             </div>
-                        ))}
+                        </div>
                     </div>
                 </div>
             </div>
