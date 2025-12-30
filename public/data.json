@@ -1,21 +1,21 @@
 {
     "businessInfo": {
-        "name": "Paw-llywood Pet Spa",
+        "name": "Nane Paws and Tails",
         "tagline": "Where Every Pet Leaves Looking & Feeling Their Best",
-        "description": "Premium pet grooming services in Los Angeles, California. We treat your furry family members with the love, care, and expertise they deserve.",
+        "description": "Premium pet grooming services in Tampa, Florida. We treat your furry family members with the love, care, and expertise they deserve.",
         "established": "2014",
-        "phone": "+1 323-848-4297",
-        "email": "pawllywoodpetspa@yahoo.com",
+        "phone": "+1 813-850-4106",
+        "email": "nanepawsandtails@gmail.com",
         "address": {
-            "street": "3359 Cahuenga Blvd W",
-            "city": "Los Angeles",
-            "state": "California",
-            "stateAbbr": "CA",
-            "zip": "90068",
+            "street": "4567 Gunn Hwy",
+            "city": "Tampa",
+            "state": "Florida",
+            "stateAbbr": "FL",
+            "zip": "33624",
             "country": "United States"
         },
         "social": {
-            "facebook": "https://web.facebook.com/pawllywoodpetspa/?_rdc=1&_rdr#",
+            "facebook": "https://web.facebook.com/Nane.Paws.and.Tails/?_rdc=1&_rdr#",
             "instagram": "",
             "twitter": ""
         },
@@ -30,7 +30,7 @@
         }
     },
     "hero": {
-        "mainHeading": "Premium Pet Grooming in Los Angeles",
+        "mainHeading": "Premium Pet Grooming in Tampa",
         "subHeading": "Expert care for your beloved companions",
         "description": "Experience the difference of personalized, stress-free grooming in a loving environment",
         "ctaPrimary": {
@@ -244,7 +244,7 @@
             "petName": "Max",
             "petType": "Golden Retriever",
             "rating": 5,
-            "text": "Paw-llywood Pet Spa is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
+            "text": "Nane Paws and Tails is absolutely wonderful! Max always comes home looking and smelling amazing. The staff is so patient and loving with him. I wouldn't trust anyone else with my baby!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-max.jpg"
         },
@@ -264,7 +264,7 @@
             "petName": "Whiskers",
             "petType": "Persian Cat",
             "rating": 5,
-            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Paw-llywood Pet Spa does an incredible job. Whiskers actually seems to enjoy going now!",
+            "text": "Finding a groomer who can handle my Persian cat's long coat has been challenging, but Nane Paws and Tails does an incredible job. Whiskers actually seems to enjoy going now!",
             "date": "2024-11",
             "imageUrl": "/images/testimonial-whiskers.jpg"
         },
@@ -411,14 +411,14 @@
         ]
     },
     "seo": {
-        "title": "Paw-llywood Pet Spa | Premium Pet Grooming in Los Angeles, CA",
-        "description": "Expert pet grooming services in Los Angeles, California. Professional dog and cat grooming with personalized care. Book your appointment today!",
+        "title": "Nane Paws and Tails | Premium Pet Grooming in Tampa, FL",
+        "description": "Expert pet grooming services in Tampa, Florida. Professional dog and cat grooming with personalized care. Book your appointment today!",
         "keywords": [
-            "pet grooming Los Angeles",
-            "dog grooming California",
+            "pet grooming Tampa",
+            "dog grooming Florida",
             "cat grooming near me",
             "professional pet groomer",
-            "pet spa Los Angeles CA"
+            "pet salon Tampa FL"
         ]
     }
 }
